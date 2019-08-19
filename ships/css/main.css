@@ -1,0 +1,57 @@
+html{
+	font-family: 'Merriweather', serif;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+}
+li{
+	text-align: left;
+	margin-left: 20%;
+}
+canvas {
+    display:block; /* remove scrollbars */
+    position: absolute;  /* position at top left corner for overlay */
+    left: 0;
+    top: 0;
+    z-index: -999;
+}
+div.body{
+	text-align: center;
+	background-color: #BDBDBD;
+	width: 90%;
+	margin: auto;
+	opacity: 0.8;
+}
+div.card_pin{
+	display: inline-block;
+	margin: 8px;
+	padding: 5px;
+	color: black;
+	background-color: #A9F5D0;
+	width: 80%;
+}
+div.card_other{
+	display: inline-block;
+	margin: 8px;
+	padding: 5px;
+	color: black;
+	background-color: #F5A9A9;
+}
+div.card_research{
+	display: inline-block;
+	margin: 8px;
+	padding: 5px;
+	color: black;
+	background-color: #9966FF;
+	width: 80%;
+}
+
+img.me{
+    border-radius: 50%;
+	opacity: 1;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
